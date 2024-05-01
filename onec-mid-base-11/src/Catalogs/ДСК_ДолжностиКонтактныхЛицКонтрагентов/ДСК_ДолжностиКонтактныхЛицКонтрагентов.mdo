@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8a05b40-c880-4824-8cb6-acb5e89c7c72">
+  <producedTypes>
+    <objectType typeId="bf6bba62-aa94-4787-91cd-703a4f3243b8" valueTypeId="aa64d78c-6a64-4cc6-be47-e328b8312aa2"/>
+    <refType typeId="9b2e15eb-81fb-4d31-b4d0-0842ea8fa114" valueTypeId="9d37185f-877f-45eb-a214-663f1c22b9d4"/>
+    <selectionType typeId="14585b1f-3606-4591-9560-eac60f9f8651" valueTypeId="47596739-26fc-4578-a7f1-d00aa342a60f"/>
+    <listType typeId="621e23b4-ef74-489d-b99b-fc68da8b0bfc" valueTypeId="d96f25a6-a6e4-40d1-ba79-4afb65b142b0"/>
+    <managerType typeId="aedf6305-cf3c-4629-b8c1-abf82962260e" valueTypeId="afa7dba6-ee01-413c-97bb-957514ddd2e3"/>
+  </producedTypes>
+  <name>ДСК_ДолжностиКонтактныхЛицКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности контактных лиц контрагентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДСК_ДолжностиКонтактныхЛицКонтрагентов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ДСК_ДолжностиКонтактныхЛицКонтрагентов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
